@@ -3,7 +3,7 @@
 $incomeFile = 'incomes.txt';
 $expenseFile = 'expenses.txt';
 
-// Load data from files
+
 $incomes = [];
 if (file_exists($incomeFile)) {
     $handle = fopen($incomeFile, 'r');
